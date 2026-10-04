@@ -142,19 +142,6 @@ A few small details I would mention in the walkthrough video:
 4. **Image resilience** — network images have progress and error states.
 5. **Hero loading preview** — the tapped product thumbnail remains visible while the detail endpoint is loading.
 
-## Walkthrough video outline
-
-A concise 2–3 minute walkthrough can cover:
-
-- Launch the app and point out list item information.
-- Scroll to the bottom to demonstrate automatic pagination.
-- Search for `phone`, highlighting the debounce/server-side approach.
-- Search for an impossible term to demonstrate the empty state.
-- Open a product and show image gallery, description, price, and rating.
-- Briefly disconnect networking or explain the retry/error states.
-- Pull down to refresh.
-- End with the `data` / `presentation` structure and the included unit tests.
-
 ## Trade-offs / TODOs
 
 If this were moving beyond the assignment time box, I would consider:
