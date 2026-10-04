@@ -19,7 +19,7 @@ A small Flutter product catalog built against the free [DummyJSON Products API](
 
 ## Search approach
 
-I chose **server-side search**:
+Using **server-side search**:
 
 ```text
 GET https://dummyjson.com/products/search?q=<query>&limit=20&skip=<skip>
